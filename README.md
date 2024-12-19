@@ -11,13 +11,13 @@ This folder contains the implementation of two key components:
 
 ![Demo Video](https://www.youtube.com/watch?v=H1wg2peoX8k)
 **Snapsots** \
-![Snapshot 1](./Snapshots/Picture2.png)\
-![Snapshot 1](./Snapshots/Picture3.png)\
-![Snapshot 1](./Snapshots/Picture4.png)\
-![Snapshot 1](./Snapshots/Picture5.png)\
-![Snapshot 1](./Snapshots/Picture6.png)\
-![Snapshot 1](./Snapshots/Picture7.png)\
-![Snapshot 1](./Snapshots/Picture8.png)\
+![Snapshot 1](./Snapshots/Picture2.png)
+![Snapshot 1](./Snapshots/Picture3.png)
+![Snapshot 1](./Snapshots/Picture4.png)
+![Snapshot 1](./Snapshots/Picture5.png)
+![Snapshot 1](./Snapshots/Picture6.png)
+![Snapshot 1](./Snapshots/Picture7.png)
+![Snapshot 1](./Snapshots/Picture8.png)
 
 Below is an overview of the folder structure and the purpose of each code file.
 
