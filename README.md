@@ -7,6 +7,10 @@ This folder contains the implementation of two key components:
 1. **Digital Twin Yoga Master**
 2. **Raspberry Pi Pico Breathing and Temperature Monitor**
 
+## **Demo**
+
+![Digital Twin Yoga Master](./Demo.mp4)
+
 Below is an overview of the folder structure and the purpose of each code file.
 
 ---
