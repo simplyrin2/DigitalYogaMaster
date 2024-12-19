@@ -65,8 +65,8 @@ graph TD
     I --> A
 
     %% Set text color to white
-    classDef whiteText fill:#ffffff,stroke:#555,stroke-width:2px
-    class A,B,C,D,E,F,G,H,I blackText
+    classDef whiteText fill:#ffffff,stroke:#555,stroke-width:2px,color:#555;
+    class A,B,C,D,E,F,G,H,I whiteText
 ```
 
 #### **Code Implementation**
