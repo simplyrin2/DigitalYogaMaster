@@ -48,22 +48,17 @@ The **Digital Twin Yoga Master** is a Python-based application that leverages **
 
 #### **System Design**
 
-+---------------------------------------------------+ \
-|                   User Interface                  | \
-|  (Display Screen, Guidance Messages, Progress)    | \
-+---------------------------------------------------+ \
-| Sensors (IMU, Flex Sensors, Pressure Sensors)     | \
-|                     |                             | \
-|                     v                             | \
-|            Microcontroller/IoT Device             | \
-|                     |                             | \
-|                     v                             | \
-|                   Cloud Platform                  | \
-|  (Database, AI/ML Model, API)                     | \
-+---------------------------------------------------+ \
-|                     Feedback Loop                 | \
-|  (Sensors -> Microcontroller -> Cloud -> UI)      | \
-+---------------------------------------------------+ \
+```mermaid
+graph TD
+    A[User Interface] --> B[Sensors]
+    B --> C[Microcontroller/IoT Device]
+    C --> D[Cloud Platform]
+    D --> A
+    C --> A
+    style A fill:#f9f,stroke:#333,stroke-width:4px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
 
 #### **Code Implementation**
 
