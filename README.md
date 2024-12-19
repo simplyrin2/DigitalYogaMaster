@@ -9,7 +9,7 @@ This folder contains the implementation of two key components:
 
 ## **Demo**
 
-![Digital Twin Yoga Master](./Demo.mp4)
+![Demo Video](Demo.mp4)
 
 Below is an overview of the folder structure and the purpose of each code file.
 
