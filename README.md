@@ -54,15 +54,19 @@ The **Digital Twin Yoga Master** is a Python-based application that leverages **
 
 ```mermaid
 graph TD
-    A[User Interface] --> B[Sensors]
-    B --> C[Microcontroller/IoT Device]
-    C --> D[Cloud Platform]
-    D --> A
-    C --> A
-    style A fill:#f9f,stroke:#333,stroke-width:4px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#bbf,stroke:#333,stroke-width:2px
-    style D fill:#bbf,stroke:#333,stroke-width:2px
+    A[User Interface] --> B[Mediapipe & OpenCV]
+    B --> C[Joints Angle Calculation]
+    C --> D[Comparison & Time Setup]
+    D --> E[Breathing: Temperature Sensor]
+    E --> F[Raspberry Pi Pico-W]
+    F --> G[Thonny Software for MicroPython]
+    G --> H[Socket for Data Transfer via Wi-Fi]
+    H --> I[Integration of Whole System]
+    I --> A
+
+    %% Set text color to white
+    classDef whiteText fill:#ffffff,stroke:#333,stroke-width:2px
+    class A,B,C,D,E,F,G,H,I whiteText
 ```
 
 #### **Code Implementation**
