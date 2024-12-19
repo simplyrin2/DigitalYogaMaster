@@ -12,12 +12,12 @@ This folder contains the implementation of two key components:
 ![Demo Video](https://www.youtube.com/watch?v=H1wg2peoX8k)\
 **Snapsots** \
 ![](./Snapshots/Picture2.png|width=100)
-![](./Snapshots/Picture3.png)
-![](./Snapshots/Picture4.png)
-![](./Snapshots/Picture5.png)
-![](./Snapshots/Picture6.png)
-![](./Snapshots/Picture7.png)
-![](./Snapshots/Picture8.png)
+![](./Snapshots/Picture3.png|width=100)
+![](./Snapshots/Picture4.png|width=100)
+![](./Snapshots/Picture5.png|width=100)
+![](./Snapshots/Picture6.png|width=100)
+![](./Snapshots/Picture7.png|width=100)
+![](./Snapshots/Picture8.png|width=100)
 
 Below is an overview of the folder structure and the purpose of each code file.
 
